@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+# Quiz App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to the **Quiz App**, a React Native-based application built using **Expo**, **NativeWind**, and **Zustand**. This app is designed to test and enhance your programming knowledge across various programming languages.
 
-## Get started
+## Screen Shots
 
-1. Install dependencies
+![WhatsApp Image 2025-01-14 at 8 05 29 PM](https://github.com/user-attachments/assets/13198013-3bb3-4485-aff0-1b6157320c2e)
+![WhatsApp Image 2025-01-14 at 8 05 29 PM (1)](https://github.com/user-attachments/assets/14825324-2d5d-4b4a-884f-5c6a02819b98)
+![WhatsApp Image 2025-01-14 at 8 05 30 PM](https://github.com/user-attachments/assets/23b2a0c6-b9dc-4c6e-98e1-506353d3cf0c)
 
+
+## Features
+
+- **Multiple Language Support**: Questions covering multiple programming languages like JavaScript, Python, Java, C++, and more.
+- **Interactive Interface**: A sleek and user-friendly interface built with NativeWind.
+- **State Management**: Efficient state management using Zustand.
+- **Responsive Design**: Optimized for different screen sizes.
+- **Real-time Feedback**: Immediate results for your answers to help you learn quickly.
+
+## Tech Stack
+
+- **React Native**: For building the mobile application.
+- **Expo**: To simplify development, testing, and deployment.
+- **NativeWind**: For styling using utility-first CSS.
+- **Zustand**: For managing the application state.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Darshan4518/quiz-app.git
+   cd quiz-app
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server:
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Scan the QR code with the Expo Go app on your device to preview the app.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Usage
 
-## Get a fresh project
+1. Open the app and select a programming language category.
+2. Start the quiz and answer the questions.
+3. Get instant feedback on your answers.
+4. View your final score and correct answers at the end of the quiz.
 
-When you're ready, run:
+## Contributing
 
-```bash
-npm run reset-project
-```
+We welcome contributions! Follow these steps:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request on GitHub.
 
-## Learn more
+## License
 
-To learn more about developing your project with Expo, look at the following resources:
+This project is licensed under the [MIT License](LICENSE).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+Feel free to explore the app and contribute to its development. Let's build a comprehensive programming quiz platform together!
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
